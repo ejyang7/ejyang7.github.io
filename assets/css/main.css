@@ -1297,7 +1297,8 @@ input, select, textarea {
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 			background: url("../../images/emily_yang.jpg");
-			
+			background-size: 100%;
+			background-position: center;
 
 		}
 
