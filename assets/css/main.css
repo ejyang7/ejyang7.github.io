@@ -112,7 +112,7 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 14pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -143,7 +143,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 1.05rem;
 		line-height: 1.65;
 	}
 
@@ -1335,8 +1335,8 @@ input, select, textarea {
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
-				line-height: 2;
+				font-size: 0.92rem;
+				line-height: 1.9;
 			}
 
 		#header nav ul {
@@ -1368,7 +1368,7 @@ input, select, textarea {
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
-					font-size: 0.8rem;
+					font-size: 0.85rem;
 					border-bottom: 0;
 				}
 
@@ -1602,6 +1602,25 @@ input, select, textarea {
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
 				}
+
+				#main .column {
+					float: left;
+					width: 50%;
+					padding: 5px;
+				}
+
+				#main .row::after {
+					content: "";
+					clear: both;
+					display: table;
+				}
+
+				#main .center {
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					width: 50%;
+				  }
 
 		@media screen and (max-width: 736px) {
 
