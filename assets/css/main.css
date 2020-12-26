@@ -211,7 +211,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.35rem;
 	}
 
 	h4 {
@@ -733,13 +733,18 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
-		margin: 0 0 2rem 0;
+		list-style: square;
+		margin: 0 0 1rem 0;
 		padding-left: 1em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		ul span {
+			position: relative;
+			left: -12px;
 		}
 
 		ul.alt {
@@ -1621,6 +1626,12 @@ input, select, textarea {
 					margin-right: auto;
 					width: 50%;
 				  }
+
+				  #main .colwithimg {
+					float: left;
+					width: 40%;
+					padding: 5px;
+				}
 
 		@media screen and (max-width: 736px) {
 
