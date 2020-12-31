@@ -1117,6 +1117,7 @@ input, select, textarea {
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden; 
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1614,10 +1615,16 @@ input, select, textarea {
 					padding: 5px;
 				}
 
+				/*
 				#main .row::after {
 					content: "";
 					clear: both;
 					display: table;
+				}
+				*/
+
+				#main .row {
+					display: flex;
 				}
 
 				#main .center {
@@ -1635,7 +1642,7 @@ input, select, textarea {
 
 				#main .quadcolumn {
 					float: left;
-					width: 33.33%;
+					flex: 33.33%;
 					padding: 15px 5px 15px 5px;
 				}
 
