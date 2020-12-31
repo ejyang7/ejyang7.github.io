@@ -1627,10 +1627,16 @@ input, select, textarea {
 					width: 50%;
 				  }
 
-				  #main .colwithimg {
+				#main .colwithimg {
 					float: left;
 					width: 40%;
 					padding: 5px;
+				}
+
+				#main .quadcolumn {
+					float: left;
+					width: 33.33%;
+					padding: 15px 5px 15px 5px;
 				}
 
 		@media screen and (max-width: 736px) {
